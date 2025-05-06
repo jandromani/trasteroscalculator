@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://trasteros-calculator.vercel.app",
+  siteUrl: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://tu-nuevo-dominio.com", // Actualiza esta URL
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: "daily",
@@ -10,7 +10,7 @@ module.exports = {
     additionalSitemaps: [
       process.env.VERCEL_URL
         ? `https://${process.env.VERCEL_URL}/api/sitemap`
-        : "https://trasteros-calculator.vercel.app/api/sitemap",
+        : "https://trasterosmadrid.vercel.app/", // Actualiza esta URL
     ],
     policies: [
       {

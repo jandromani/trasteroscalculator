@@ -2,9 +2,7 @@ import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Obtener la URL base de Vercel (o usar una predeterminada para desarrollo)
-  const baseUrl = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : "https://trasteros-calculator.vercel.app"
+  const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://trasterosmadrid.vercel.app/" // Actualiza esta URL
 
   return [
     {
