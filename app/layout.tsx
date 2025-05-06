@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Trasteros Pro Madrid | Calculadora de Presupuestos",
     description:
       "Calcula al instante el presupuesto para tu proyecto de trasteros en Madrid. Presupuestos detallados y profesionales.",
-    url: "https://trasteros-calculator.vercel.app",
+    url: "https://trasterosmadrid.vercel.app/",
     siteName: "Trasteros Pro Madrid",
     locale: "es_ES",
     type: "website",
@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     title: "Trasteros Pro Madrid | Calculadora de Presupuestos",
     description:
       "Calcula al instante el presupuesto para tu proyecto de trasteros en Madrid. Presupuestos detallados y profesionales.",
+  },
+  verification: {
+    google: "lCCshBiJGD0CxqviaqPT_8Zm-gfmG0SdRhgmh9JvXXQ",
   },
     generator: 'v0.dev'
 }
