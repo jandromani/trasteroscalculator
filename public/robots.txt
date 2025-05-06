@@ -1,0 +1,9 @@
+# Allow all user agents
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://trasteros-calculator.vercel.app/sitemap.xml
+
+# Disallow specific paths
+Disallow: /api/
